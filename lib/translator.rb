@@ -6,7 +6,7 @@ def load_library(file_path)
   emo_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   emo.each do |key, value|
     emo_hash["get_meaning"][value[1]] = key
-    emo_hash["get_emoticon"][value[0]] = key
+    emo_hash["get_emoticon"][value[0]] = value[1]
   end
   binding.pry
   emo_hash
