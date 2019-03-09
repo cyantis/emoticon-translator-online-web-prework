@@ -9,8 +9,7 @@ def load_library(file_path)
     get_meaning[key] = value[1]
     get_emoticon[key] = value[0]
   end
-  binding.pry
-  return get_meaning, get_emoticon
+  get_meaning, get_emoticon
 end
 
 def get_japanese_emoticon
