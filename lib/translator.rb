@@ -8,6 +8,7 @@ def load_library(file_path)
     emo_hash["get_meaning"][value[1]] = key
     emo_hash["get_emoticon"][value[0]] = key
   end
+  binding.pry
   emo_hash
 end
 
