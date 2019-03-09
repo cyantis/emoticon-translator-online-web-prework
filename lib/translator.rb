@@ -6,7 +6,8 @@ def load_library(file_path)
   get_meaning = {}
   get_emoticon = {}
   emo.each do |key, value|
-    binding.pry
+    get_meaning[key] = value[1]
+    get_emoticon[key] = value[0]
   end
 end
 
