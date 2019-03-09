@@ -1,4 +1,4 @@
-require 'emoticons.yml'
+require 'lib/emoticons.yml'
 require 'pry'
 
 def load_library
